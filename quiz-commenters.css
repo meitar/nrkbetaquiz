@@ -1,4 +1,4 @@
-.nrkbetaquiz label.answer {
+.quizcommenters label.answer {
     cursor: pointer;
     display: inline-block;
     margin: 0 7px 6px 0;
@@ -6,22 +6,22 @@
     padding: 10px 15px;
     background: #eee;
 }
-.nrkbetaquiz label:hover {
+.quizcommenters label:hover {
     background: #ccc;
 }
-.nrkbetaquiz p.correct,
-.nrkbetaquiz p.error {
+.quizcommenters p.correct,
+.quizcommenters p.error {
     font: inherit;
-    animation: .5s nrkbetaquiz;
+    animation: .5s quizcommenters;
 }
-.nrkbetaquiz p.correct {
+.quizcommenters p.correct {
     color: green;
     font-weight: bold;
 }
-.nrkbetaquiz p.error {
+.quizcommenters p.error {
     color: red;
 }
-@keyframes nrkbetaquiz {
+@keyframes quizcommenters {
     from { transform: scale(0); }
     to { transform: scale(1); }
 }
